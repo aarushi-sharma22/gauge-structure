@@ -1,0 +1,21 @@
+# data + experiment outputs are regenerated, not versioned
+data/*
+!data/README.md
+outputs/*
+!outputs/README.md
+*.csv
+*.png
+*.pkl
+*.npy
+*.safetensors
+
+# python / jupyter cruft
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+.venv/
+env/
+
+# HF cache if anyone runs locally
+.cache/
